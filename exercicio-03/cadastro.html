@@ -3,28 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
+    <title>Página de Cadastro</title>
 </head>
 <body>
 
     <form action="https://www.w3schools.com/action_page.php">
         <fieldset>
             <legend>Página de Cadastro</legend>
-        Nome: <input type="text" name="nome" required><br>
-        E-mail: <input type="email" name="email"><br>
-        Senha: <input type="password" name="senha"><br>
+        Nome: <input type="text" name="nome" placeholder="Digite seu nome"><br>
+        E-mail: <input type="email" name="email" placeholder="Digite seu e-mail"><br>
+        Senha: <input type="password" name="senha" placeholder="Digite sua senha"><br>
         Data de Nascimento: <input type="date" name="data_nascimento"><br>
         Sexo: <select name="sexo">
             <option value="masculino">Masculino</option>
             <option value="carnes">Feminino</option>
             </select><br>
-        Estado: <select name="estado">
+        Estado Civil: <select name="estado-civil">
         <option value="solteiro">Solteiro(a)</option>
         <option value="casado">Casado(a)</option>
         <option value="Separado">Separado(a)</option>
         <option value="divorciado">Divorciado(a)</option>
         <option value="viuvo">Viúvo(a)</option>
         </select><br>
+        Estado (UF): <select name="estado-uf">
+            <option value="acre">Acre</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="amapá">Amapá</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="bahia">Bahia</option>
+            <option value="ceará">Ceará</option>
+            <option value="distrito-federal">Distrito Federal</option>
+            <option value="espírito-santo">Espírito Santo</option>
+            <option value="goiás">Goiás</option>
+            <option value="maranhão">Maranhão</option>
+            <option value="mato-grosso">Mato Grosso</option>
+            <option value="mato-grosso-do-sul">Mato Grosso do Sul</option>
+            <option value="minas-gerais">Minas Gerais</option>
+            <option value="pará">Pará</option>
+            <option value="paraíba">Paraíba</option>
+            <option value="paraná">Paraná</option>
+            <option value="pernambuco">Pernambuco</option>
+            <option value="piauí">Piauí</option>
+            <option value="rio-de-janeiro">Rio de Janeiro</option>
+            <option value="rio-grande-do-norte">Rio Grande do Norte</option>
+            <option value="rio-grande-do-sul">Rio Grande do Sul</option>
+            <option value="rondônia">Rondônia</option>
+            <option value="roraima">Roraima</option>
+            <option value="santa-catarina">Santa Catarina</option>
+            <option value="são-paulo">São Paulo</option>
+            <option value="sergipe">Sergipe</option>
+            <option value="tocantins">Tocantins</option>
+            </select><br>
         <input type="submit" value="Enviar">
         </fieldset>
     </form>
