@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/exercicio-05/abstract-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h1 {
+    background-color: red;
+    border: 2px solid green;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+  }
+
+  .botao {
+  background-color: #4CAF50; /* Cor de fundo */
+  border: none; /* Sem borda */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem decoração de texto */
+  display: inline-block; /* Exibir como bloco */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem */
+  cursor: pointer; /* Cursor do mouse */
+  border-radius: 10px; /* Borda arredondada */
+  transition-duration: 0.4s; /* Duração da transição */
+}
+
+.botao:hover {
+  background-color: #45a049; /* Cor de fundo quando o mouse passa por cima */
+}
