@@ -4,6 +4,12 @@ body {
     background-image: url(/exercicio-05/abstract-background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
   }
   h1 {
     background-color: red;
@@ -31,3 +37,17 @@ body {
 .botao:hover {
   background-color: #45a049; /* Cor de fundo quando o mouse passa por cima */
 }
+
+.red-div {
+  background-color: red;
+  width: 700px;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo do div */
+}
+
+.green-div {
+  background-color: green;
+  width: 650px; /* 700px menos 25px de padding de cada lado */
+  padding: 25px;
+  box-sizing: border-box; 
